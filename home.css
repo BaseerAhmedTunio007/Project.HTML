@@ -1,0 +1,175 @@
+.cantainer {
+    display: flex;
+    flex-direction: row;
+    background-image: url("Coffee-Shop-Names.webp");
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+
+}
+.logo{
+    flex: 30%;
+    
+}
+.one{
+    width: 200px;
+    height: 70px;
+    align-items: center;
+}
+.nav{
+    flex: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 500px;
+}
+.cantainer  ul{
+    list-style: none;
+}
+.cantainer  ul li {
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .cantainer ul li:hover{
+    background: crimson;
+}
+.cantainer ul ul {
+    display: none;
+}
+ .cantainer ul li:hover > ul {
+     display: block;
+ }
+ .one {
+     background-color: green;
+     text-align: center;
+    
+     
+    
+     
+ }
+ .Two{
+     
+    width: 100%;
+    height:200px;
+    background: #191919;
+    text-align:  center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Two p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:15px;
+    padding-top: 60px;
+
+}
+ 
+  .three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+        background-color:white;
+        
+    }
+
+ .card{
+        text-align: center;
+        
+    }
+    img{
+        height: 300px;
+        width: 200px;
+    }
+    .main{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.left {
+    flex: 50%;
+    background-color:wheat;
+    padding-left: 50px;
+    margin-bottom: -50px;
+
+
+}
+
+.right {
+    flex: 50%;
+    background-color:wheat;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: -50px;
+
+}
+.nine{
+    width: 750px;
+    height: 350px;
+}
+h1{
+    text-align: center;
+    background-color:wheat;
+}
+    
+   .ten{
+       width: 300px;
+       height: 150px;
+   }
+   b{
+        color: #fcfc;
+   }
+   h2{
+       
+    color: red;
+   }
+.about{
+     width: 100%;
+     padding: 100px 0px;
+     background-color: #191919;
+      margin-top: 30px;
+ }
+ 
+ .about-text{
+     width: 500px;
+
+ }
+ .tenth{
+     width: 1100px;
+     max-width: 95%;
+     margin: 0px auto ;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+    
+ }
+ .about img{
+     height:550px;
+     width:550px;
+     
+ }
+
+ .about-text h2{
+     color:white;
+     font-size: 75px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+ }
+ .about-text p{
+     color: #fcfc;
+     letter-spacing: 1px;
+     line-height: 28px;
+     font-size: 18px;
+     margin-bottom: 45px;
+ }
+ 
